@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    display:grid;
+    place-items: center;
   }
   
   @keyframes burjAnimation {
@@ -50,11 +52,15 @@ body {
       #d0394a,
       #eb7012
     );
-    width: 300px;
+    width: 90%;
     height: 364px;
-    margin-top: 50px;
-    margin-left: 50%;
-    position: absolute;
+    position: relative;
+    /* box-shadow:
+    10px 0 15px 20px #051937,
+    10px 0 50px 100px #49265a,
+    0 0 50px 220px #932762,
+    0 0 50px 400px #d0394a,
+    0 0 50px 500px #eb7012; */
   }
   
   .block {
